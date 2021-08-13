@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"target": "es2020",
+		"module": "esnext",
+		"esModuleInterop": true,
+		"lib": ["es5", "dom"],
+		"paths": {
+			"/*": ["src/*"],
+		},
+		"baseUrl": "/src"
+	},
+	"exclude": [
+		"node_modules"
+	],
+}
